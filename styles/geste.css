@@ -1,0 +1,166 @@
+/* mise en forme des span pour un affichage normalisé*/
+span.reg {
+  display: none;
+}
+span.expan {
+  display: none;
+}
+
+/* mise en forme position du texte et effets de caractères */
+/* Ajouts */
+
+
+/*
+span.above {
+  vertical-align: 15px;
+  font-size: 90%;
+  color: #000000;
+}
+span.below {
+  vertical-align: -15px;
+  font-size: 90%;
+  color: #000000;
+}
+*/
+span.decorated-initial {
+  color: red;
+  font-size: 150%;
+}
+span.first-letter-capital {
+  text-transform: capitalize;
+}
+span.capital {
+  text-transform: uppercase;
+}
+span.underline {
+  text-decoration: underline;
+}
+span.rubricated {
+  color: red;
+}
+span.smaller {
+  font-size: 80%;
+}
+span.bigger {
+  font-size: 120%;
+}
+span.widder {
+  word-spacing: 20px;
+}
+/* Corrections */
+span.del {
+  text-decoration: line-through;
+}
+/*
+span.overstrike {
+  text-decoration: line-through;
+}
+span.exponct {
+  border-bottom: thick dotted;
+}
+*/
+span.unclear {
+  background-color:lightgrey;
+}
+span.norm {
+  text-decoration: none;
+  word-spacing: none;
+  font-size: 100%;
+  color: black;
+  vertical-align: 0;
+  text-transform: none;
+  border: 0;
+}
+
+/* Numérotations */
+
+ol::before{
+    display:block;
+    content:attr(n);
+    font-weight:bold;
+}
+
+/* on a besoin de Junicode pour afficher de l'allographétique */
+/* ne fonctionne pas super pour le moment */
+@font-face {
+  font-family: 'Junicode';
+  src: url('/assets/nemo.secondary/static/Junicode-Regular.ttf');
+  src: url('/assets/nemo.secondary/static/Junicode-Regular.woff') format('woff'),
+       url('/assets/nemo.secondary/static/Junicode-Regular.ttf') format('truetype')
+}
+
+section.entry-content {
+  font-family: Junicode;
+}
+
+/*
+span.orig {
+  font-family: Junicode;
+  color:red;
+}
+*/ 
+
+/*Lettrines*/
+/*Décoration, lettrines, initiales*/
+/*Code à revoir*/
+
+span[class="initiale peint 5l"]{
+    font-size:5em;  /*À ajuster, en fonction du nombre d'unités de réglure occupées par les lettrines*/
+}
+
+span[class="initiale filigr 4l"]{
+    font-size:4em;  /*À ajuster, en fonction du nombre d'unités de réglure occupées par les lettrines*/
+}
+
+span[class="initiale peint 2l"]{
+    font-size:2em;  /*À ajuster, en fonction du nombre d'unités de réglure occupées par les lettrines*/
+}
+
+span[class="initiale filigr 2l"]{
+    font-size:2em;  /*À ajuster, en fonction du nombre d'unités de réglure occupées par les lettrines*/
+}
+
+ 
+span[class="initiale detach"]{
+    font-size:120%;
+}
+span[class="initiale detach"]::after{
+    content:' ';
+}
+
+/*hi[rend="initiale detach"]::after{
+    content:" ";
+}*/
+
+span[class="litteraNotabilior"]{
+    font-size:120%;
+}
+
+span[class="litteraElongata"]{
+    /*font-stretch:ultra-expanded;*/
+    /*transform : scale(1,2);*/ /*Normalement la bonne façon de faire, mais oXygen ne veut pas*/
+    /*transform:scaleY(2);*/
+    -webkit-transform:scale(1,3); /* Safari and Chrome */
+    -moz-transform:scale(1,3); /* Firefox */
+/*-ms-transform:scale(1,2);*/ /* IE 9+ */
+    -o-transform:scale(1,3); /* Opera */
+}
+
+
+
+/* Mise en forme courante*/
+
+span.mentioned {
+  font-style: italic;
+}
+
+/*  Pure stylage sans grand intérêt */
+body, html {
+  margin:0;
+  padding: 0;
+  height:100%;
+  background-color: #fce8ec;
+}
+
+
+

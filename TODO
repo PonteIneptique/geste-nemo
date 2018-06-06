@@ -1,0 +1,16 @@
+#Éléments à corriger dans le rendu:
+
+##Transcription
+
+    * Junicode
+    * Traitements différenciés, selon les versions, pour les del, add, etc. (à peaufiner)
+    * numérotation des lignes
+    * espacement des lignes dans la version fac-similaire
+    * corr et sic à traiter
+    * finir de reprendre les éléments des css d'Otinel, ainsi que des xslt > LaTeX d'Otinel
+    * visionage de l'étiquetage des mots, et liens avec dictionnaires.
+
+##Reste
+
+    * Logos, etc.
+    * templates (menus, mise en page, etc.)
