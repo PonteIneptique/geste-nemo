@@ -101,7 +101,7 @@ nemo = Nemo(
     templates={
         "main": "./templates"
     },
-    statics=["images/logo-enc2.jpg","fonts/Junicode-Regular.ttf","fonts/Junicode-Regular.woff"]
+    statics=["images/logo-enc2.png","fonts/Junicode-Regular.ttf","fonts/Junicode-Regular.woff"]
     #,
     #additional_static=[
     #    "img/logo-enc2.jpg"
