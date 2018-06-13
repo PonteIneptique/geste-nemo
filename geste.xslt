@@ -8,7 +8,9 @@
 -->
     
     
-    <xsl:output method="html" indent="yes" omit-xml-declaration="yes" encoding="UTF-8"/>
+    <xsl:output method="html" indent="no" omit-xml-declaration="yes" encoding="UTF-8"/>
+    
+    <xsl:strip-space elements="*"/>
 
     <xsl:template match="/">
         <xsl:apply-templates/>
@@ -70,6 +72,7 @@
             <xsl:attribute name="n">
                 <xsl:value-of select="@n"/>
             </xsl:attribute>
+            <xsl:attribute name="class">verse-numb</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
@@ -85,7 +88,7 @@
     
     <!-- JBC: je modifie un peu cela selon mes conventions -->
 
-    <xsl:template match="tei:lb">
+    <xsl:template match="tei:lb[ancestor::tei:l]">
         <xsl:element name="br"/>
     </xsl:template>
 
@@ -312,13 +315,13 @@
         <xsl:choose>
             <xsl:when test="@rend = 'elision'">
                 <xsl:element name="span">
-                    <xsl:attribute name="classe">reg</xsl:attribute>
+                    <xsl:attribute name="class">reg</xsl:attribute>
                     <xsl:text>'</xsl:text>
                 </xsl:element>
             </xsl:when>
             <xsl:when test="@rend = 'aggl'">
                 <xsl:element name="span">
-                    <xsl:attribute name="classe">reg</xsl:attribute>
+                    <xsl:attribute name="class">reg</xsl:attribute>
                     <xsl:text> </xsl:text>
                 </xsl:element>
             </xsl:when>

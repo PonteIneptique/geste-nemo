@@ -88,20 +88,20 @@ nemo = Nemo(
     plugins=None,
     cache=cache,
     transform={
-        "default": "geste.xslt"
+        "default": "./geste.xslt"
     },
     css=[
         # USE Own CSS
-        "styles/geste.css"
+        "./styles/geste.css"
     ],
     js=[
         # use own js file to load a script to go from normalized edition to diplomatic one.
-        "styles/geste.js"
+        "./styles/geste.js"
     ],
     templates={
         "main": "./templates"
     },
-    statics=["images/logo-enc2.png","fonts/Junicode-Regular.ttf","fonts/Junicode-Regular.woff"]
+    statics=["./images/logo-enc2.png","./fonts/Junicode-Regular.ttf","./fonts/Junicode-Regular.woff"]
     #,
     #additional_static=[
     #    "img/logo-enc2.jpg"

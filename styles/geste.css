@@ -78,7 +78,25 @@ ol::before{
     display:block;
     content:attr(n);
     font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
+/*Remove default numbering of ordered lists*/
+.verse-numb {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+/*Add our own*/
+.verse-numb li::before {
+    content: attr(n);
+    margin-right: 5px;
+    font-size: 80%;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
 
 /* on a besoin de Junicode pour afficher de l'allographétique */
 /* ne fonctionne pas super pour le moment */
@@ -154,7 +172,7 @@ span.mentioned {
   font-style: italic;
 }
 
-/*  Pure stylage sans grand intérêt */
+/*  Pur stylage sans grand intérêt */
 body, html {
   margin:0;
   padding: 0;
