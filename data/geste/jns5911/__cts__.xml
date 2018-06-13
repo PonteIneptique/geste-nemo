@@ -3,11 +3,13 @@
          groupUrn="urn:cts:froLit:geste"
          urn="urn:cts:froLit:geste.jns5911"
          xml:lang="fro">
-   <ti:title xml:lang="fre"/>
+   <ti:title xml:lang="fre">Fierabras</ti:title>
    <ti:edition workUrn="urn:cts:froLit:geste.jns5911"
                urn="urn:cts:froLit:geste.jns5911.transcr_Fier_V">
       <ti:label xml:lang="fre">
-                Fierabras
+                Fierabras: 
+                Extraits du témoin V (BAV, Reg. lat. 1616) de
+                    la Chanson de Fierabras
                 
                     sous la direction de
                     Jean-Baptiste Camps

@@ -15,7 +15,9 @@
     <teiHeader>
       <fileDesc>
             <titleStmt>
-                <title>Fierabras</title>
+                <title type="main">Fierabras</title>
+                <title type="sub">Extraits du témoin V (BAV, Reg. lat. 1616) de
+                    la Chanson de Fierabras</title>
                 <respStmt>
                     <resp>sous la direction de</resp>
                     <persName xml:id="JBC">Jean-Baptiste Camps</persName>

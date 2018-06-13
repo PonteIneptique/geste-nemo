@@ -7,9 +7,9 @@
    <ti:edition workUrn="urn:cts:froLit:geste.jns13335"
                urn="urn:cts:froLit:geste.jns13335.ed_MacaireAl3T">
       <ti:label xml:lang="fre">
-                Reine Sebile
+                Reine Sebile: 
                 Fragment de Sion - texte fondé sur l'édition Aebischer
-                Paul Aebischer
+                , éd. par Paul Aebischer, 
                 
                     édition numérique sous la direction de
                     Jean-Baptiste Camps
@@ -18,12 +18,12 @@
       <ti:description xml:lang="fre">
                 
                     
-                        
+                        , éd. par 
                             
                                 Paul
                                 Aebischer
                             
-                        
+                        , 
                         Fragments de la Chanson de la Reine Sebile et du roman de Florence de
                             Rome conservés aux Archives cantonales de Sion
                     
@@ -34,51 +34,6 @@
                         
                         66
                         385-408
-                    
-                
-            </ti:description>
-   </ti:edition>
-   <ti:edition workUrn="urn:cts:froLit:geste.jns13335"
-               urn="urn:cts:froLit:geste.jns13335.ed_MacaireAl2B">
-      <ti:label xml:lang="fre">
-                Reine Sebile
-                Fragment Loveday - Texte fondé sur l'édition Baker
-                A.T. Baker
-                
-                    compléments de
-                    Mario Roques
-                
-                
-                    transcription revue par
-                    Louis Brandin
-                
-                
-                    édition numérique sous la direction de
-                    Jean-Baptiste Camps
-                
-            </ti:label>
-      <ti:description xml:lang="fre">
-                
-                    
-                        
-                            
-                                A.T.
-                                Baker
-                            
-                        
-                        
-                            Mario
-                            Roques
-                        
-                        Nouveaux fragments de la chanson de la Reine Sibille
-                    
-                    
-                        Romania
-                        
-                            1915
-                        
-                        44
-                        1-13
                     
                 
             </ti:description>

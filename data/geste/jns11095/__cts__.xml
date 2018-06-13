@@ -7,10 +7,10 @@
    <ti:edition workUrn="urn:cts:froLit:geste.jns11095"
                urn="urn:cts:froLit:geste.jns11095.transcr_Otin_M">
       <ti:label xml:lang="fre">
-                Otinel
+                Otinel: 
                 Transcription du témoin M (fragment de Mende, BnF, nouv. acq. fr. 5094) de
                     la Chanson d'Otinel
-                Jean-Baptiste camps
+                , éd. par Jean-Baptiste camps, 
             </ti:label>
       <ti:description xml:lang="fre">
                 
@@ -47,9 +47,9 @@
    <ti:edition workUrn="urn:cts:froLit:geste.jns11095"
                urn="urn:cts:froLit:geste.jns11095.transcr_Otin_A">
       <ti:label xml:lang="fre">
-                Otinel
+                Otinel: 
                 Le romans do Otinel - Transcription du témoin A (ms. Reg. lat. 1616) de la Chanson d'Otinel
-                Jean-Baptiste Camps
+                , éd. par Jean-Baptiste Camps, 
             </ti:label>
       <ti:description xml:lang="fre">
                 
@@ -83,22 +83,22 @@
    <ti:edition workUrn="urn:cts:froLit:geste.jns11095"
                urn="urn:cts:froLit:geste.jns11095.ed_OtinG">
       <ti:label xml:lang="fre">
-                Otinel
+                Otinel: 
                 Numérisation de l'édition de Guessard de
                     1858
                 Anonyme
-                
+                , éd. par 
                     
                         François
                         Guessard
                     
-                
+                , 
                 
                     
                         Henri
                         Michelant
                     
-                
+                , 
                 
                     sous la direction de
                     
@@ -117,19 +117,19 @@
       <ti:description xml:lang="fre">
                 
                     
-                        
+                        , éd. par 
                             
                                 François
                                 Guessard
                             
-                        
+                        , 
                         
                             
                                 Henri
                                 Michelant
                             
-                        
-                        Otinel 
+                        , 
+                        Otinel:  
                         Chanson de geste
                         
                             P. Jannet
@@ -148,10 +148,10 @@
    <ti:edition workUrn="urn:cts:froLit:geste.jns11095"
                urn="urn:cts:froLit:geste.jns11095.transcr_Otin_B">
       <ti:label xml:lang="fre">
-                Otinel
+                Otinel: 
                 Transcription du témoin B (ms de Cologny-Genève) de la Chanson
                     d'Otinel
-                Jean-Baptiste Camps
+                , éd. par Jean-Baptiste Camps, 
             </ti:label>
       <ti:description xml:lang="fre">
                 
