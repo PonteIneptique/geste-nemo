@@ -82,7 +82,7 @@ nautilus = FlaskNautilus(
 
 nemo = Nemo(
     app=app,
-    base_url="",
+    base_url="/geste",
     resolver=NautilusDummy,
     chunker={"default": scheme_grouper},
     plugins=None,
