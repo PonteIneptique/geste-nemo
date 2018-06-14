@@ -102,9 +102,9 @@ ol::before{
 /* ne fonctionne pas super pour le moment */
 @font-face {
   font-family: 'Junicode';
-  src: url('/assets/nemo.secondary/static/Junicode-Regular.ttf');
-  src: url('/assets/nemo.secondary/static/Junicode-Regular.woff') format('woff'),
-       url('/assets/nemo.secondary/static/Junicode-Regular.ttf') format('truetype')
+  src: url('/geste/assets/nemo.secondary/static/Junicode-Regular.ttf');
+  src: url('/geste/assets/nemo.secondary/static/Junicode-Regular.woff') format('woff'),
+       url('/geste/assets/nemo.secondary/static/Junicode-Regular.ttf') format('truetype')
 }
 
 section.entry-content {
