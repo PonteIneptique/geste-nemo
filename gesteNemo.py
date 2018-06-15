@@ -10,6 +10,7 @@ from MyCapytain.resolvers.utils import CollectionDispatcher
 from capitains_nautilus.cts.resolver import NautilusCTSResolver
 from capitains_nautilus.flask_ext import FlaskNautilus
 import logging
+import urllib
 # We import enough resources from MyCapytain to retrieve data
 from MyCapytain.resolvers.cts.api import HttpCtsResolver
 from MyCapytain.retrievers.cts5 import HttpCtsRetriever
@@ -109,6 +110,7 @@ nemo = Nemo(
 )
 
 cache.init_app(app)
+app["SERVER_NAME"] = "http://corpus.enc.sorbonne.fr/geste"
 
 if __name__ == "__main__":
     app.run()
