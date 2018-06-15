@@ -110,7 +110,8 @@ nemo = Nemo(
 )
 
 cache.init_app(app)
-#app["SERVER_NAME"] = "http://corpus.enc.sorbonne.fr/geste"
+app["SERVER_NAME"] = "corpus.enc.sorbonne.fr"
+app["APPLICATION_ROOT"] = "/geste"
 
 if __name__ == "__main__":
     app.run()
