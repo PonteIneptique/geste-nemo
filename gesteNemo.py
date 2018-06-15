@@ -111,5 +111,15 @@ nemo = Nemo(
 cache.init_app(app)
 app["SERVER_NAME"] = "http://corpus.enc.sorbonne.fr/geste"
 
+
+@app.template_filter('urlencode')
+def urlencode_filter(s):
+    """ Add the ability to encode URI parameter in the front end """
+    if type(s) == 'Markup':
+        s = s.unescape()
+    s = s.encode('utf8')
+    s = urllib.quote_plus(s)
+    return Markup(s)
+
 if __name__ == "__main__":
     app.run()
