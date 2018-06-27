@@ -76,7 +76,7 @@ def scheme_grouper(text, getreffs):
 
 nautilus = FlaskNautilus(
     app=app,
-    prefix="/api",
+    prefix="/geste/api",
     name="nautilus",
     resolver=NautilusDummy
 )
